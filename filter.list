@@ -1,0 +1,68 @@
+
+host-suffix, is.apple.com, 🗺 AppleMap
+host-keyword, gspe, 🗺 AppleMap
+host-suffix, icloud.com, 🍎 苹果服务
+host-suffix, apple.com, 🍎 苹果服务
+
+host-keyword, google, 🌏 国外网站
+host-suffix, google.com, 🌏 国外网站
+
+host, apmgw.hellobike.com, 哈罗单车🚲
+host, moment-cdn.hellobike.com, 哈罗单车🚲
+host, locallife-cdn.hellobike.com, 哈罗单车🚲
+host-keyword, easybike-image, 哈罗单车🚲
+host, m.hellobike.com, 哈罗单车🚲
+user-agent, Dart/2.10 (dart:io), 哈罗单车🚲
+host, assets.51downapp.cn, 哈罗单车🚲
+
+host-keyword, twing, 🗼 社交媒体
+host-keyword, twitter, 🗼 社交媒体
+host-keyword, facebook, 🗼 社交媒体
+
+; App Store
+; host-suffix, itunes.apple.com, proxy
+
+host, www.canva.com, DIRECT*
+
+host, ocsp.pki.goog, proxy
+-host, app-measurement.com, proxy
+host-keyword, raw.github, Github
+
+
+host-keyword, toutiao, DIRECT*
+geoip, cn, DIRECT*
+host-keyword, snssdk, direct
+host-keyword, bytedance, direct
+host-keyword, zztt, direct
+host-suffix, 1lib, direct
+
+
+#本地分流
+;user-agent, ?abc*, proxy
+;host, www.google.com, proxy
+;host-keyword, adsite, reject
+;host-suffix, googleapis.com, proxy
+
+#绕过企业证书过期
+host, ocsp.apple.com, reject
+
+#屏蔽系统更新
+host, ns.itunes.apple.com, 🚫屏蔽更新
+host, appldnld.apple.com, 🚫屏蔽更新
+host, mesu.apple.com, 🚫屏蔽更新
+host, xp.apple.com, 🚫屏蔽更新
+host, gdmf.apple.com, 🚫屏蔽更新
+
+host-keyword, xdrig, reject
+host-keyword, umengcloud, reject
+host-keyword, unity3d, reject
+-host-keyword, video, reject
+host, sqdd.myapp.com, reject
+
+#迅雷版权问题
+host, hub5idx.v6.shub.sandai.net, reject
+host, hub5emu.v6.shub.sandai.net, reject
+host, hub5btmain.v6.shub.sandai.net, reject
+
+#去掉YouTube++底部广告
+host-suffix, ehg-youtube.hitbox.com, reject
