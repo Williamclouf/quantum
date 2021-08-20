@@ -35,6 +35,8 @@ host-keyword, snssdk, direct
 host-keyword, bytedance, direct
 host-keyword, zztt, direct
 host-suffix, 1lib, direct
+host-suffix, ea.com, DIRECT*
+host-suffix, origin.com, DIRECT*
 
 
 #本地分流
