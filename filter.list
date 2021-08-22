@@ -55,6 +55,8 @@ host, mesu.apple.com, 🚫屏蔽更新
 host, xp.apple.com, 🚫屏蔽更新
 host, gdmf.apple.com, 🚫屏蔽更新
 
+host, armmf.adobe.com, reject
+host-suffix, armmf.adobe.com, reject
 host-keyword, xdrig, reject
 host-keyword, umengcloud, reject
 host-keyword, unity3d, reject
