@@ -24,6 +24,7 @@ host-keyword, facebook, 🗼 社交媒体
 
 host, www.canva.com, DIRECT*
 
+host, devstreaming-cdn.apple.com, proxy
 host, ocsp.pki.goog, proxy
 -host, app-measurement.com, proxy
 host-keyword, raw.github, Github
