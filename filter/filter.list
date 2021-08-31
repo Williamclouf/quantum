@@ -1,3 +1,8 @@
+#本地分流
+;user-agent, ?abc*, proxy
+;host, www.google.com, proxy
+;host-keyword, adsite, reject
+;host-suffix, googleapis.com, proxy
 
 host-suffix, is.apple.com, 🗺 AppleMap
 host-keyword, gspe, 🗺 AppleMap
@@ -40,21 +45,10 @@ host-suffix, ea.com, DIRECT*
 host-suffix, origin.com, DIRECT*
 
 
-#本地分流
-;user-agent, ?abc*, proxy
-;host, www.google.com, proxy
-;host-keyword, adsite, reject
-;host-suffix, googleapis.com, proxy
 
 #绕过企业证书过期
 host, ocsp.apple.com, reject
 
-#屏蔽系统更新
-host, ns.itunes.apple.com, 🚫屏蔽更新
-host, appldnld.apple.com, 🚫屏蔽更新
-host, mesu.apple.com, 🚫屏蔽更新
-host, xp.apple.com, 🚫屏蔽更新
-host, gdmf.apple.com, 🚫屏蔽更新
 
 host, armmf.adobe.com, reject
 host-suffix, armmf.adobe.com, reject
