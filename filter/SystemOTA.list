@@ -1,0 +1,17 @@
+HOST,ns.itunes.apple.com,🚫 SystemOTA
+HOST,updates-http.cdn-apple.com,🚫 SystemOTA
+HOST,updates.cdn-apple.com,🚫 SystemOTA
+HOST,xp.apple.com,🚫 SystemOTA
+HOST-SUFFIX,appldnld-lb.apple.com.akadns.net,🚫 SystemOTA
+HOST-SUFFIX,appldnld.apple.com,🚫 SystemOTA
+HOST-SUFFIX,appldnld.apple.com.akadns.net,🚫 SystemOTA
+HOST-SUFFIX,appldnld.g.aaplimg.com,🚫 SystemOTA
+HOST-SUFFIX,gdmf.apple.com,🚫 SystemOTA
+HOST-SUFFIX,gdmf.apple.com.akadns.net,🚫 SystemOTA
+HOST-SUFFIX,mesu-cdn.apple.com.akadns.net,🚫 SystemOTA
+HOST-SUFFIX,mesu-cdn.origin-apple.com.akadns.net,🚫 SystemOTA
+HOST-SUFFIX,mesu.apple.com,🚫 SystemOTA
+HOST-SUFFIX,mesu.g.aaplimg.com,🚫 SystemOTA
+HOST-SUFFIX,ocsp-lb.apple.com.akadns.net,🚫 SystemOTA
+HOST-SUFFIX,ocsp.apple.com,🚫 SystemOTA
+HOST-SUFFIX,ocsp.g.aaplimg.com,🚫 SystemOTA
