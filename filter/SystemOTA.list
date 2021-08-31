@@ -1,3 +1,4 @@
+;屏蔽系统更新
 HOST,ns.itunes.apple.com,🚫 SystemOTA
 HOST,updates-http.cdn-apple.com,🚫 SystemOTA
 HOST,updates.cdn-apple.com,🚫 SystemOTA
