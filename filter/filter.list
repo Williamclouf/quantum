@@ -44,7 +44,8 @@ host-suffix, 1lib, direct
 host-suffix, ea.com, DIRECT*
 host-suffix, origin.com, DIRECT*
 
-
+# steam
+host-keyword, steam, steam
 
 #绕过企业证书过期
 host, ocsp.apple.com, reject
