@@ -24,6 +24,10 @@ host-keyword, twing, 🗼 社交媒体
 host-keyword, twitter, 🗼 社交媒体
 host-keyword, facebook, 🗼 社交媒体
 
+;Steam
+host-keyword, steam, steam
+host, mtalk.google.com, steam
+
 ; App Store
 ; host-suffix, itunes.apple.com, proxy
 
